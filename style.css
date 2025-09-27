@@ -1,0 +1,120 @@
+body{
+  font-family: Roboto Condensed, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url(imagens/fundo.png);
+}
+.lato-light {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.lato-regular {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.lato-black-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+header{
+  text-align: center;
+  background-color: #6141ac;
+  color: white;
+}     
+/*nav-menu*/
+#nav-categorias button {
+background-color: #a069e7;
+color: black;
+}
+#nav-categorias button:hover {
+  background: purple;
+  color:white;
+}
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 0 15px;
+}
+
+.artigo-noticia {
+  background: #fff;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 6px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+.conteudo-artigo{
+  text-align: left;
+}
+
+.conteudo-artigo h2 {
+  margin: 10px 0;
+  color: purple;
+}
+.imagem-artigo {
+  display: block; 
+  margin: 0 auto;   
+}
+button {
+  margin-top: 10px;
+  padding: 8px 12px;
+  background: grey;
+  color: black;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: purple;
+  color: white;
+}
+/*paginaçao*/
+.paginacao {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.paginacao button {
+  margin: 0 5px;
+  padding: 8px 12px;
+  background: gray;
+  cursor: pointer;
+}
+
+.paginacao button.active {
+  background: purple;
+  color: #fff;
+  border: none;
+}
+footer{
+  background-color: #6141ac;
+}
+footer p{
+  text-align: center;
+  color: black;
+}
+footer img{
+width: 40px;
+height: 40px;
+} 
+.icons{
+  text-align: center;
+}
+  @media (max-width: 600px) {
+    .artigo-noticia {
+      flex-direction: column; 
+      text-align: center; 
+    }
+  
+    .conteudo-artigo button {
+      align-self: center; 
+    }
+  }
